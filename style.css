@@ -1,0 +1,375 @@
+* {
+  font-family: 'Rubik', sans-serif;
+}
+
+body {
+  display: flex;
+  width: 100vh;
+  height: 100%;
+  background-color: rgb(234, 242, 247);
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.main {}
+
+.bg-shape-container {
+  background-color: blueviolet;
+  background: linear-gradient(to top, hsl(263, 99%, 62%), rgb(237, 39, 255));
+  height: 900px;
+  width: 100%;
+  padding-right: 500px;
+
+  border-radius: 20px 0px 300px 300px;
+}
+
+.main-card {
+
+  width: 400px;
+  height: 720px;
+  display: table-row;
+
+  background-color: rgb(242, 242, 242);
+  border-style: solid;
+  border-radius: 50px 50px 50px 50px;
+  border-width: 18px;
+  border-color: white;
+  margin-left: -60px;
+  box-shadow: 10px 5px 50px rgb(192, 192, 192);
+
+
+}
+
+.header-container {
+  background-color: rgb(173, 108, 234);
+  background: linear-gradient(to right, hsl(263, 99%, 62%), rgb(237, 39, 255));
+  width: 320px;
+  height: 80px;
+  display: flex;
+  border-radius: 25px 25px 10px 10px;
+  flex-direction: row;
+
+
+}
+
+.white {
+  background-color: white;
+  width: 160px;
+  height: 25px;
+  border-radius: 80px;
+  display: flex;
+  align-items: center;
+  margin-top: -10px;
+  margin-left: 70px;
+
+
+
+}
+
+p0 {
+  color: rgba(255, 255, 255, 0.562);
+  width: 200px;
+  font-size: 13px;
+
+
+
+
+}
+
+b {
+  color: white;
+  width: 200px;
+  font-size: 18px;
+}
+
+.header-row {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 90px;
+  gap: 20px;
+
+
+}
+
+
+.arrow {
+  border: solid rgb(255, 255, 255);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 4px;
+
+  margin-left: 15px;
+
+
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+
+  margin-bottom: -20px;
+
+
+}
+
+.img1 {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: solid white;
+  margin-left: -55px;
+
+
+}
+
+.dots {
+  color: white;
+  padding-top: 80px;
+}
+
+
+p1 {
+  font-size: 13px;
+  color: rgb(127, 64, 186);
+
+
+}
+
+.p1-card {
+  height: 40px;
+  width: 200px;
+  background-color: rgb(241, 234, 247);
+  border-radius: 15px 15px 15px 5px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 5px 5px 10px rgb(225, 225, 225);
+
+
+}
+
+p2 {
+  font-size: 13px;
+  color: rgb(127, 64, 186);
+
+}
+
+.p2-card {
+  height: 40px;
+  width: 200px;
+  background-color: rgb(241, 234, 247);
+  border-radius: 10px;
+  border-radius: 15px 15px 15px 5px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 5px 5px 10px rgb(225, 225, 225);
+
+}
+
+.img2 {
+
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  margin: 5px;
+  margin-left: 130px;
+  box-shadow: 5px 5px 10px rgb(225, 225, 225);
+}
+
+
+.img3 {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  margin: 5px;
+  box-shadow: 5px 5px 10px rgb(225, 225, 225);
+}
+
+.img4 {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  margin: 5px;
+  box-shadow: 5px 5px 10px rgb(225, 225, 225);
+}
+
+
+p3 {
+  font-size: 13px;
+
+}
+
+.p3-card {
+  height: 35px;
+  width: 190px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px 15px 5px 15px;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 95px;
+  color: rgb(100, 100, 100);
+  box-shadow: 5px 5px 10px rgb(225, 225, 225);
+
+}
+
+p4 {
+  font-size: 13px;
+}
+
+.p4-card {
+  height: 20px;
+  width: 110px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px 15px 5px 15px;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 175px;
+  color: rgb(100, 100, 100);
+  box-shadow: 5px 5px 10px rgb(225, 225, 225);
+
+}
+
+p5 {
+  font-size: 13px;
+  color: rgb(153, 93, 203);
+}
+
+.p5-card {
+  height: 50px;
+  width: 180px;
+  background-color: rgb(241, 234, 247);
+  border-radius: 15px 15px 15px 5px;
+  padding: 12px;
+  box-shadow: 5px 5px 10px rgb(225, 225, 225);
+  margin: 10px;
+}
+
+.button-card1 {
+  color: rgb(243, 243, 243);
+  font-size: 13px;
+  height: 20px;
+  border-radius: 15px 15px 15px 5px;
+  padding: 20px;
+  width: 200px;
+  background-color: blueviolet;
+  background: linear-gradient(to left, hsl(263, 99%, 62%), rgb(237, 39, 255));
+  margin: 10px;
+  box-shadow: 5px 5px 10px rgb(225, 225, 225);
+  display: flex;
+}
+
+.button-card2 {
+  color: rgb(243, 243, 243);
+  font-size: 13px;
+  height: 20px;
+  width: 200px;
+  border-radius: 15px 15px 15px 5px;
+  padding: 20px;
+  background-color: blueviolet;
+  background: linear-gradient(to left, hsl(263, 99%, 62%), rgb(237, 39, 255));
+  margin: 10px;
+  box-shadow: 5px 5px 10px rgb(225, 225, 225);
+  display: flex;
+
+}
+
+b2 {
+  font-size: 20px;
+  margin-left: 20px;
+  font-weight: 900;
+  float: inline-end;
+
+
+
+
+}
+
+b3 {
+  font-size: 20px;
+  margin-left: 45px;
+  font-weight: 900;
+  float: inline-end;
+
+}
+
+label {
+
+  line-height: 24px;
+  margin: auto 6px;
+
+
+}
+
+input {
+  width: 20px;
+
+
+
+
+
+}
+
+
+.message-card {
+
+  font-size: 13px;
+  width: 280px;
+  height: 40px;
+  background-color: white;
+  box-shadow: 5px 5px 10px rgb(225, 225, 225);
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.type {
+  font-size: 15px;
+  margin: 10px;
+  margin-left: 20px;
+  color: rgba(0, 0, 0, 0.215);
+
+}
+
+.submit {
+  font-size: 25px;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.submit-card {
+  background-color: rgb(57, 40, 85);
+  width: 45px;
+  height: 45px;
+  float: right;
+  margin-top: -40px;
+  border-radius: 50px;
+}
+
+.texts {
+  padding: 70px;
+  margin-left: 30px;
+
+}
+
+h1 {
+  text-align: left;
+  font-size: 50px;
+  font-weight: 500;
+  width: 400px;
+  color: rgb(92, 92, 92);
+
+}
+
+h2 {
+  color: rgba(0, 0, 0, 0.482);
+  font-weight: 100;
+  font-size: 20px;
+  width: 550px;
+  word-spacing: 3px;
+  line-height: 30px;
+
+}
